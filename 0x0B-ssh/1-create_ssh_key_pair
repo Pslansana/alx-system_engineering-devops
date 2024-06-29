@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# generate ssh passphrase protected keypair:
+# 	private named 'school':
+
+
+ssh-keygen -t rsa -b 4096 -f school -N 'betty'
